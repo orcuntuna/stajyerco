@@ -4,7 +4,7 @@ export default class Index extends React.Component {
     render() {
         return (
             <div>
-                welcome back
+                <Button type="primary">Primary</Button>
             </div>
         );
     }
