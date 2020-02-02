@@ -203,4 +203,5 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/git,react,linux,macos,windows,webstorm,visualstudiocode
 
+.next
 .next/
