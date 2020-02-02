@@ -3,4 +3,49 @@ body {
   font-size: 15px;
 }
 
+.header {
+  background-color: #231d73;
+  color: #fff;
+}
+.header a {
+  color: #cecff9;
+}
+.header a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+.header .header-container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.header .menu {
+  margin: 0 0 0 30px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.header .menu li {
+  font-size: 16px;
+  padding: 20px 10px;
+}
+.header .right {
+  margin-left: auto;
+}
+.header .right .login-button {
+  font-size: 15px;
+  padding: 10px 20px;
+  color: #231d73;
+  background-color: #fff;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.header .right .login-button:hover {
+  background-color: #44bd32;
+  color: #fff;
+  transition: 0.3s;
+}
+
 /*# sourceMappingURL=style.css.map */
