@@ -1,2 +1,3 @@
 import AuthStore from "./AuthStore";
-export {AuthStore}
+import MainStore from "./MainStore";
+export {AuthStore,MainStore}

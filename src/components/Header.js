@@ -1,5 +1,9 @@
 import React from "react";
+import {observer, inject} from "mobx-react";
+import {Icon} from "antd";
 
+@inject("MainStore")
+@observer
 export default class Header extends React.Component {
     render(){
         return(
@@ -8,18 +12,34 @@ export default class Header extends React.Component {
                     <a href="#" className="logo">
                         <img src={"https://apusthemes.com/wp-demo/careerup/wp-content/uploads/2019/04/logo-white.png"} />
                     </a>
-                    <ul className="menu">
+                    <ul className="menu show-desktop">
                         <li><a href="#">Anasayfa</a></li>
                         <li><a href="#">Firmalar</a></li>
                         <li><a href="#">İlanlar</a></li>
                         <li><a href="#">CV Oluştur</a></li>
                     </ul>
                     <div className="right">
-                        <a href="#" className="login-button">
+                        <div href="#" className="login-button show-desktop">
                             Giriş Yap / Kayıt Ol
-                        </a>
+                        </div>
+                        <div href="#" className="toggle-button show-mobile">
+                            <Icon type="user" style={{fontSize: "20px"}} />
+                        </div>
+                        <div onClick={() => this.props.MainStore.mobile_header_menu_toggle()} className="toggle-button show-mobile">
+                            <Icon type="menu" style={{fontSize: "20px"}} />
+                        </div>
                     </div>
                 </div>
+                {
+                    this.props.MainStore.mobile_header_menu_visible ? (
+                        <ul className="mobile-menu">
+                            <li><a href="#">Anasayfa</a></li>
+                            <li><a href="#">Firmalar</a></li>
+                            <li><a href="#">İlanlar</a></li>
+                            <li><a href="#">CV Oluştur</a></li>
+                        </ul>
+                    ) : null
+                }
             </div>
         )
     }

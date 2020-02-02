@@ -3,6 +3,10 @@ body {
   font-size: 15px;
 }
 
+.show-mobile {
+  display: none;
+}
+
 .header {
   background-color: #231d73;
   color: #fff;
@@ -32,9 +36,11 @@ body {
   padding: 20px 10px;
 }
 .header .right {
+  display: flex;
   margin-left: auto;
 }
 .header .right .login-button {
+  cursor: pointer;
   font-size: 15px;
   padding: 10px 20px;
   color: #231d73;
@@ -46,6 +52,33 @@ body {
   background-color: #44bd32;
   color: #fff;
   transition: 0.3s;
+}
+.header .right .toggle-button {
+  color: #fff;
+  padding: 10px 15px;
+}
+
+@media (max-width: 576px) {
+  .show-mobile {
+    display: block;
+  }
+
+  .show-desktop {
+    display: none !important;
+  }
+
+  .header .mobile-menu {
+    list-style: none;
+    background-color: #111;
+    padding: 0;
+    margin: 0;
+  }
+  .header .mobile-menu li a {
+    padding: 12px 20px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,10 @@ body{
   font-size: 15px;
 }
 
+.show-mobile{
+  display: none;
+}
+
 .header{
   background-color: $header-main;
   color: #fff;
@@ -34,8 +38,10 @@ body{
     }
   }
   .right{
+    display: flex;
     margin-left: auto;
     .login-button{
+      cursor: pointer;
       font-size: 15px;
       padding: 10px 20px;
       color: $header-main;
@@ -48,7 +54,33 @@ body{
       color: #fff;
       transition: 0.3s;
     }
+    .toggle-button{
+      color: #fff;
+      padding: 10px 15px;
+    }
   }
 }
 
+@media (max-width: 576px) {
+  .show-mobile{
+    display: block;
+  }
+  .show-desktop{
+    display: none !important;
+  }
+  .header{
+    .mobile-menu{
+      list-style: none;
+      background-color: #111;
+      padding: 0;
+      margin: 0;
+      li a{
+        padding: 12px 20px;
+        color: #fff;
+        display: block;
+        font-size: 16px;
+      }
+    }
+  }
+}
 
