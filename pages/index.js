@@ -1,10 +1,13 @@
 import React from "react";
-import {Header} from "../src/components";
+import {Header,Search} from "../src/components";
 
 export default class Index extends React.Component {
     render() {
         return (
-            <Header />
+            <div className="main">
+                <Header />
+                <Search />
+            </div>
         );
     }
 }

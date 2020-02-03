@@ -1,2 +1,3 @@
 import Header from "./Header";
-export {Header}
+import Search from "./Search";
+export {Header,Search}

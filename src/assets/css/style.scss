@@ -2,7 +2,7 @@ $header-main: #231d73;
 $header-secondary: #44bd32;
 
 body{
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-size: 15px;
 }
 
@@ -61,6 +61,64 @@ body{
   }
 }
 
+.search{
+  background-color: $header-main;
+  color: #fff;
+  padding: 160px 0px;
+  background-image: url("../images/search_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 16px;
+    color: #cecff9;
+  }
+  .search-form{
+    margin-top: 20px;
+    .d-pr-0{
+      padding-right: 0;
+    }
+    .select{
+      width: 100%;
+    }
+    .ant-select-selection{
+      height: 60px;
+    }
+    .ant-select-selection__rendered{
+      line-height: 58px;
+      margin-left: 60px;
+    }
+    .select-icon{
+      position: absolute;
+      color: #bfbfbf;
+      z-index: 100;
+      height: 60px;
+      width: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .ant-select-lg{
+      font-size: 16px;
+    }
+    .search-button{
+      background-color: $header-secondary;
+      border: none;
+      height: 60px;
+      display: flex;
+      text-align: center;
+      padding: 0 32px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .show-mobile{
     display: block;
@@ -80,6 +138,20 @@ body{
         display: block;
         font-size: 16px;
       }
+    }
+  }
+  .search{
+    padding: 50px 0;
+    .search-form{
+      .d-pr-0{
+        padding-right: 15px;
+        margin-bottom: 10px;
+      }
+    }
+    .search-button{
+      width: 100%;
+      text-align: center;
+      display: block;
     }
   }
 }
