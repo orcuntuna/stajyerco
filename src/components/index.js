@@ -1,3 +1,4 @@
 import Header from "./Header";
 import Search from "./Search";
-export {Header,Search}
+import PopularCategories from "./PopularCategories";
+export {Header,Search,PopularCategories}

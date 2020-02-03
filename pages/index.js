@@ -1,5 +1,5 @@
 import React from "react";
-import {Header,Search} from "../src/components";
+import {Header,Search,PopularCategories} from "../src/components";
 
 export default class Index extends React.Component {
     render() {
@@ -7,6 +7,7 @@ export default class Index extends React.Component {
             <div className="main">
                 <Header />
                 <Search />
+                <PopularCategories />
             </div>
         );
     }

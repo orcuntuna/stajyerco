@@ -119,6 +119,64 @@ body{
   }
 }
 
+.popular-categories{
+  background-color: #fff;
+  padding: 50px 0;
+  .section-header{
+    display: flex;
+    justify-content: space-between;
+    .title{
+      color: #221f1f;
+      font-size: 23px;
+      font-weight: 600;
+    }
+    .browse-all{
+      background-color: #fff;
+      border: none;
+      padding: 0;
+      margin: 0;
+      color: $header-secondary;
+      display: flex;
+      align-items: center;
+      outline: 0;
+    }
+  }
+  .section-body{
+    margin-top: 20px;
+    .category{
+      cursor: pointer;
+      height: 200px;
+      color: #fff;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url("../images/category_bg1.jpg");
+      border-radius: 4px;
+      margin-bottom: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .subtitle{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+      }
+      svg{
+        width: 36px;
+        height: 36px;
+        margin-bottom: 20px;
+      }
+    }
+    .category:hover{
+      background-image: linear-gradient(to bottom, rgba(35,29,115,0.9) 0%,rgba(35, 29, 115,0.9) 100%), url("../images/category_bg1.jpg");
+      transition: 0.3s;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .show-mobile{
     display: block;
