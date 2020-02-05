@@ -42,7 +42,7 @@ body {
 .header .right .login-button {
   cursor: pointer;
   font-size: 15px;
-  padding: 10px 20px;
+  padding: 8px 15px;
   color: #231d73;
   background-color: #fff;
   border-radius: 6px;
@@ -181,6 +181,8 @@ section .section-body {
 }
 .featured-notices .home-notice {
   margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;

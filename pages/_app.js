@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 import "../src/assets/css/fonts.css";
 import "../src/assets/css/style.css";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 function MyApp({ Component, pageProps }) {
     return (

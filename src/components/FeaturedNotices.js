@@ -1,7 +1,11 @@
 import React from "react";
 import HomeNotice from "./HomeNotice";
+import AliceCarousel from "react-alice-carousel";
 
 export default class FeaturedNotices extends React.Component {
+
+    handleOnDragStart = (e) => e.preventDefault();
+
     render() {
         return (
             <section className="featured-notices">
@@ -10,13 +14,24 @@ export default class FeaturedNotices extends React.Component {
                         <h3 className="title">Öne Çıkan İlanlar</h3>
                         <button className="browse-all">Tüm İlanları Göster</button>
                     </div>
-                    <div className="row section-body">
-                        <HomeNotice />
-                        <HomeNotice />
-                        <HomeNotice />
-                        <HomeNotice />
-                        <HomeNotice />
-                        <HomeNotice />
+                    <div className="section-body">
+                        <AliceCarousel buttonsDisabled={true}  responsive={{
+                            0: {
+                                items: 1,
+                            },
+                            1024: {
+                                items: 3
+                            }
+                        }}>
+                            <HomeNotice onDragStart={this.handleOnDragStart} />
+                            <HomeNotice onDragStart={this.handleOnDragStart} />
+                            <HomeNotice onDragStart={this.handleOnDragStart} />
+                            <HomeNotice onDragStart={this.handleOnDragStart} />
+                            <HomeNotice onDragStart={this.handleOnDragStart} />
+                            <HomeNotice onDragStart={this.handleOnDragStart} />
+                            <HomeNotice onDragStart={this.handleOnDragStart} />
+                        </AliceCarousel>
+
                     </div>
                 </div>
             </section>
