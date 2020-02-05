@@ -180,7 +180,6 @@ section .section-body {
   padding: 50px 0;
 }
 .featured-notices .home-notice {
-  margin-bottom: 30px;
   margin-left: 5px;
   margin-right: 5px;
   display: flex;
@@ -240,9 +239,6 @@ section .section-body {
   padding: 8px 0;
   border-radius: 4px;
   text-align: center;
-}
-.featured-notices .home-notice:hover button {
-  transition: 0.3s;
 }
 
 @media (max-width: 576px) {
