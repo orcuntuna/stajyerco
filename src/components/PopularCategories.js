@@ -13,7 +13,7 @@ export default class PopularCategories extends React.Component {
                     <div className="row section-body">
                         {
                             [1,2,3,4,5,6,7,8].map(item => (
-                                <div className="col-6 col-md-4 col-lg-3">
+                                <div key={item} className="col-6 col-md-4 col-lg-3">
                                     <div className="category">
                                         <Icon type="home" />
                                         <h4 className="title">Design & Multimedia</h4>

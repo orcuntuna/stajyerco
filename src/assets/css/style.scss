@@ -25,7 +25,7 @@ body{
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
   }
   .menu{
     margin: 0 0 0 30px;
@@ -119,9 +119,7 @@ body{
   }
 }
 
-.popular-categories{
-  background-color: #fff;
-  padding: 50px 0;
+section{
   .section-header{
     display: flex;
     justify-content: space-between;
@@ -131,7 +129,7 @@ body{
       font-weight: 600;
     }
     .browse-all{
-      background-color: #fff;
+      background-color: transparent;
       border: none;
       padding: 0;
       margin: 0;
@@ -143,35 +141,111 @@ body{
   }
   .section-body{
     margin-top: 20px;
-    .category{
-      cursor: pointer;
-      height: 200px;
+  }
+}
+
+.popular-categories{
+  background-color: #fff;
+  padding: 50px 0;
+  .category{
+    cursor: pointer;
+    height: 200px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url("../images/category_bg1.jpg");
+    border-radius: 4px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title{
       color: #fff;
-      background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url("../images/category_bg1.jpg");
-      border-radius: 4px;
-      margin-bottom: 25px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .subtitle{
+      color: #fff;
+      font-size: 15px;
+      font-weight: 400;
+    }
+    svg{
+      width: 36px;
+      height: 36px;
+      margin-bottom: 20px;
+    }
+  }
+  .category:hover{
+    background-image: linear-gradient(to bottom, rgba(35,29,115,0.9) 0%,rgba(35, 29, 115,0.9) 100%), url("../images/category_bg1.jpg");
+    transition: 0.3s;
+  }
+}
+
+.featured-notices{
+  background: #f9f9f9;
+  padding: 50px 0;
+  .home-notice{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    padding: 30px 20px;
+    border-radius: 3px;
+    position: relative;
+    .image{
       display: flex;
-      flex-direction: column;
       justify-content: center;
-      align-items: center;
-      .title{
-        color: #fff;
-        font-size: 16px;
-        font-weight: 400;
-      }
-      .subtitle{
-        color: #fff;
-        font-size: 15px;
-        font-weight: 400;
-      }
-      svg{
-        width: 36px;
-        height: 36px;
-        margin-bottom: 20px;
+      margin-bottom: 20px;
+      img{
+        height: 100px;
+        width: 100px;
       }
     }
-    .category:hover{
-      background-image: linear-gradient(to bottom, rgba(35,29,115,0.9) 0%,rgba(35, 29, 115,0.9) 100%), url("../images/category_bg1.jpg");
+    p{
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    .brand{
+      font-size: 15px;
+      font-weight: 700;
+      a{
+        color: $header-secondary;
+      }
+    }
+    .title{
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8;
+      a{
+        color: #262626;
+      }
+    }
+    .location{
+      color: #aaa;
+      margin-top: 10px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      svg{
+        margin-right: 5px;
+      }
+    }
+    .show_more{
+      margin-top: 15px;
+      border: none;
+      background-color: $header-secondary;
+      color: #fff;
+      width: 80%;
+      padding: 8px 0;
+      border-radius: 4px;
+      text-align: center;
+    }
+  }
+  .home-notice:hover{
+    button{
+
       transition: 0.3s;
     }
   }
