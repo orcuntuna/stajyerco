@@ -16,7 +16,7 @@ export default class Login extends React.Component {
                         <Checkbox>Oturumu Açık Tut</Checkbox>
                         <a href="#!" className="forget-password">Parolamı Unuttum</a>
                     </div>
-                    <Button className="login-button" block={true} size={"large"} type="primary">Giriş Yap</Button>
+                    <Button className="button" block={true} size={"large"} type="primary">Giriş Yap</Button>
                 </div>
             </div>
         );

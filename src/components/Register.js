@@ -31,7 +31,7 @@ export default class Register extends React.Component {
                     <div className="other">
                         <Checkbox>Kullanım koşullarını okudu ve onaylıyorum.</Checkbox>
                     </div>
-                    <Button className="register-button" block={true} size={"large"} type="primary">Üyelik Oluştur</Button>
+                    <Button className="button" block={true} size={"large"} type="primary">Üyelik Oluştur</Button>
                 </div>
             </div>
         );
