@@ -357,6 +357,90 @@ footer .bottom .bottom-flex ul li:first-child {
   margin-left: 0px;
 }
 
+.breadscrumb {
+  background: #f0f0f0;
+}
+.breadscrumb .breadscrumb-flex {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.breadscrumb .breadscrumb-flex h2 {
+  color: #262626;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.breadscrumb .breadscrumb-flex ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.breadscrumb .breadscrumb-flex ul li {
+  font-size: 15px;
+  font-weight: 600;
+  color: #6a6a6a;
+}
+.breadscrumb .breadscrumb-flex ul li a {
+  color: #6a6a6a;
+}
+.breadscrumb .breadscrumb-flex ul li a:hover {
+  color: #231d73;
+  transition: 0.2s;
+}
+.breadscrumb .breadscrumb-flex ul li.active {
+  color: #222;
+}
+.breadscrumb .breadscrumb-flex ul svg {
+  margin: 0 5px;
+}
+
+.membership {
+  background: #fafafa;
+  padding: 50px 0 30px;
+}
+.membership .card {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.membership .card .card-title h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.membership .card .card-body {
+  margin: 0;
+  padding: 0;
+}
+.membership .card .card-body .input {
+  margin-bottom: 15px;
+}
+.membership .card .card-body .other {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.membership .card .card-body .other .forget-password {
+  font-size: 14px;
+  color: #666;
+}
+.membership .card .card-body .login-button {
+  background: #44bd32;
+  border-color: #44bd32;
+  height: 50px;
+}
+.membership .card .card-body .register-button {
+  background: #333;
+  border-color: #333;
+  height: 50px;
+}
+
 @media (max-width: 576px) {
   .show-mobile {
     display: block;
@@ -404,6 +488,14 @@ footer .bottom .bottom-flex ul li:first-child {
   }
   footer .bottom .bottom-flex ul li a {
     margin: 0 20px 0 0;
+  }
+
+  .breadscrumb .breadscrumb-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .breadscrumb .breadscrumb-flex ul {
+    margin-top: 5px;
   }
 }
 

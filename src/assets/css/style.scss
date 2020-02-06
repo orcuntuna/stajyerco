@@ -366,6 +366,92 @@ footer{
   }
 }
 
+.breadscrumb{
+  background: #f0f0f0;
+  .breadscrumb-flex {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2{
+      color: #262626;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 0;
+      margin: 0;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      li{
+        font-size: 15px;
+        font-weight: 600;
+        color: #6a6a6a;
+        a{
+          color: #6a6a6a;
+        }
+        a:hover{
+          color: $header-main;
+          transition: 0.2s;
+        }
+      }
+      li.active{
+        color: #222;
+      }
+      svg{
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+.membership{
+  background: #fafafa;
+  padding: 50px 0 30px;
+  .card{
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    .card-title{
+      h3{
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+    }
+    .card-body{
+      margin: 0;
+      padding: 0;
+      .input{
+        margin-bottom: 15px;
+      }
+      .other{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        .forget-password{
+          font-size: 14px;
+          color: #666;
+        }
+      }
+      .login-button{
+        background: $header-secondary;
+        border-color: $header-secondary;
+        height: 50px;
+      }
+      .register-button{
+        background: #333;
+        border-color: #333;
+        height: 50px;
+      }
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .show-mobile{
     display: block;
@@ -415,6 +501,15 @@ footer{
             }
           }
         }
+      }
+    }
+  }
+  .breadscrumb{
+    .breadscrumb-flex{
+      flex-direction: column;
+      align-items: flex-start;
+      ul{
+        margin-top: 5px;
       }
     }
   }
