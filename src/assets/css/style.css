@@ -244,6 +244,119 @@ section .section-body {
   outline: 0;
 }
 
+footer {
+  background: #262626;
+}
+footer .top {
+  padding: 60px 0 40px;
+}
+footer .top .menu-title {
+  padding: 0;
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+footer .top ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer .top ul li {
+  margin: 0 0 10px;
+}
+footer .top ul li a {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+footer .top ul li a:hover {
+  color: #fff;
+  transition: 0.2s;
+}
+footer .top .newsletter p {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+footer .top .newsletter .form {
+  display: flex;
+  margin-top: 20px;
+}
+footer .top .newsletter .form input {
+  background: #1a1a1a;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  color: #ddd;
+  font-weight: 600;
+  width: calc(100% - 60px);
+  padding: 14px 20px;
+}
+footer .top .newsletter .form input:focus {
+  outline: 0;
+}
+footer .top .newsletter .form input::placeholder {
+  color: #666;
+}
+footer .top .newsletter .form button {
+  width: 60px;
+  border: none;
+  background: #000;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: #fff;
+}
+footer .top .newsletter .form button svg {
+  width: 16px;
+  height: 16px;
+}
+footer .top .newsletter .form button:focus {
+  outline: 0;
+}
+footer .top .newsletter .social-links {
+  margin-top: 20px;
+}
+footer .top .newsletter .social-links li {
+  display: inline-block;
+}
+footer .top .newsletter .social-links li a {
+  margin-right: 10px;
+}
+footer .top .newsletter .social-links li svg {
+  width: 32px;
+  height: 32px;
+}
+footer .bottom {
+  background: #1a1a1a;
+  padding: 20px 0;
+}
+footer .bottom .bottom-flex {
+  display: flex;
+  justify-content: space-between;
+  color: #9e9e9e;
+}
+footer .bottom .bottom-flex p {
+  margin: 0;
+}
+footer .bottom .bottom-flex ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer .bottom .bottom-flex ul li {
+  display: inline-block;
+}
+footer .bottom .bottom-flex ul li a {
+  color: #9e9e9e;
+  margin-left: 20px;
+}
+footer .bottom .bottom-flex ul li a:hover {
+  color: #fff;
+  transition: 0.2s;
+}
+footer .bottom .bottom-flex ul li:first-child {
+  margin-left: 0px;
+}
+
 @media (max-width: 576px) {
   .show-mobile {
     display: block;
@@ -277,6 +390,20 @@ section .section-body {
     width: 100%;
     text-align: center;
     display: block;
+  }
+
+  footer .bottom .bottom-flex {
+    flex-direction: column-reverse;
+  }
+  footer .bottom .bottom-flex ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  footer .bottom .bottom-flex ul li {
+    margin-bottom: 6px;
+  }
+  footer .bottom .bottom-flex ul li a {
+    margin: 0 20px 0 0;
   }
 }
 

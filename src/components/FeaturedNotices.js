@@ -23,9 +23,6 @@ const responsive = {
 };
 
 export default class FeaturedNotices extends React.Component {
-
-    handleOnDragStart = (e) => e.preventDefault();
-
     render() {
         return (
             <section className="featured-notices">
