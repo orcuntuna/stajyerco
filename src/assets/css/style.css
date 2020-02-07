@@ -436,6 +436,27 @@ footer .bottom .bottom-flex ul li:first-child {
   height: 50px;
 }
 
+.notices {
+  background: #fafafa;
+  padding: 40px 0;
+}
+.notices .notice-filter .filter {
+  margin-bottom: 20px;
+}
+.notices .notice-filter .filter label {
+  font-size: 18px;
+  color: #555;
+  margin: 0 0 6px 0;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+.notices .notice-filter button {
+  background-color: #44bd32;
+  border-color: #44bd32;
+}
+
 @media (max-width: 576px) {
   .show-mobile {
     display: block;

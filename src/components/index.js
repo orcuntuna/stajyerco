@@ -7,5 +7,7 @@ import Footer from "./Footer";
 import Breadscrumb from "./Breadscrumb";
 import Login from "./Login";
 import Register from "./Register";
+import ListNotices from "./ListNotices";
+import NoticeFilter from "./NoticeFilter";
 
-export {Header,Search,PopularCategories,FeaturedNotices,HomeNotice,Footer,Breadscrumb,Login,Register}
+export {Header,Search,PopularCategories,FeaturedNotices,HomeNotice,Footer,Breadscrumb,Login,Register,ListNotices,NoticeFilter}
