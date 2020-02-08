@@ -470,6 +470,87 @@ footer{
   }
 }
 
+.notice-list{
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px 0 0 0;
+  .horizontal-notice{
+    border-radius: 8px;
+    background: #fff;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    .image{
+      border-radius: 4px;
+      margin-right: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 75px;
+        height: 75px;
+      }
+    }
+    .details{
+      .brand{
+        display: block;
+        color: $header-secondary;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .title{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.8;
+        color: #262626;
+      }
+      .info{
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+      }
+      .location{
+        display: flex;
+        align-items: center;
+        color: #aaa;
+        font-size: 14px;
+        padding: 0;
+        margin: 5px 0 0 0;
+        svg{
+          margin-right: 3px;
+        }
+      }
+    }
+    .right{
+      margin-left: auto;
+      .show_more{
+        border: none;
+        background-color: $header-main;
+        color: #fff;
+        padding: 8px 25px;
+        border-radius: 4px;
+        text-align: center;
+      }
+    }
+  }
+  .show-more{
+    margin-top: 20px;
+    background: #666;
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .show-more:focus{
+    outline: 0;
+  }
+}
+
+
 @media (max-width: 576px) {
   .show-mobile{
     display: block;
