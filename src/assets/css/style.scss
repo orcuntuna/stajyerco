@@ -475,7 +475,7 @@ footer{
   border-radius: 8px;
   padding: 20px 0 0 0;
   .horizontal-notice{
-    border-radius: 8px;
+    border-bottom: 1px solid #eee;
     background: #fff;
     padding: 15px 30px;
     display: flex;
@@ -550,6 +550,57 @@ footer{
   }
 }
 
+.notice{
+  background: #fff;
+  padding: 40px 0;
+  .details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #6a6a6a;
+  }
+  .title{
+    font-weight: 600;
+    line-height: 1.5;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .info-box{
+    padding: 25px 25px 10px;
+    background: #fafafa;
+    border-radius: 4px;
+    .notice-info{
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      .icon{
+        background: $header-main;
+        border-radius: 8px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+        svg{
+          color: #fff;
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .info-title{
+        font-size: 16px;
+        color: #221f1f;
+        font-weight: 600;
+      }
+      .info-desc{
+        font-size: 14px;
+        color: #666;
+      }
+    }
+  }
+}
 
 @media (max-width: 576px) {
   .show-mobile{

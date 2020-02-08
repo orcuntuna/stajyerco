@@ -10,5 +10,20 @@ import Register from "./Register";
 import ListNotices from "./ListNotices";
 import NoticeFilter from "./NoticeFilter";
 import HorizontalNotice from "./HorizontalNotice";
+import NoticeInfo from "./NoticeInfo";
 
-export {Header,Search,PopularCategories,FeaturedNotices,HomeNotice,Footer,Breadscrumb,Login,Register,ListNotices,NoticeFilter,HorizontalNotice}
+export {
+    Header,
+    Search,
+    PopularCategories,
+    FeaturedNotices,
+    HomeNotice,
+    Footer,
+    Breadscrumb,
+    Login,
+    Register,
+    ListNotices,
+    NoticeFilter,
+    HorizontalNotice,
+    NoticeInfo
+}

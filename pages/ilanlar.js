@@ -1,7 +1,7 @@
 import React from "react";
 import {Header,ListNotices,NoticeFilter,Footer} from "../src/components";
 
-export default class Index extends React.Component {
+export default class Ilanlar extends React.Component {
     render() {
         return (
             <div className="main">
