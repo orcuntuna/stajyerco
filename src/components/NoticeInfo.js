@@ -8,7 +8,7 @@ export default class NoticeInfo extends React.Component {
                 <div className="icon">
                     <Icon type={this.props.icon} />
                 </div>
-                <div className="info">
+                <div className="info-info">
                     <div className="info-title">{this.props.title}</div>
                     <div className="info-desc">{this.props.description}</div>
                 </div>

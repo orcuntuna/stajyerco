@@ -470,69 +470,71 @@ footer{
   }
 }
 
+.horizontal-notice{
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  .image{
+    border-radius: 4px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 75px;
+      height: 75px;
+    }
+  }
+  .details{
+    .brand{
+      display: block;
+      color: $header-secondary;
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .title{
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8;
+      color: #262626;
+    }
+    .info-info{
+      padding: 0;
+      margin: 0;
+      font-size: 15px;
+    }
+    .location{
+      display: flex;
+      align-items: center;
+      color: #aaa;
+      font-size: 14px;
+      padding: 0;
+      margin: 5px 0 0 0;
+      svg{
+        margin-right: 3px;
+      }
+    }
+  }
+  .right{
+    margin-left: auto;
+    .show_more{
+      border: none;
+      background-color: $header-main;
+      color: #fff;
+      padding: 8px 25px;
+      border-radius: 4px;
+      text-align: center;
+    }
+  }
+}
+
 .notice-list{
   background: #fff;
   border-radius: 8px;
   padding: 20px 0 0 0;
-  .horizontal-notice{
-    border-bottom: 1px solid #eee;
-    background: #fff;
-    padding: 15px 30px;
-    display: flex;
-    align-items: center;
-    .image{
-      border-radius: 4px;
-      margin-right: 25px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      img{
-        width: 75px;
-        height: 75px;
-      }
-    }
-    .details{
-      .brand{
-        display: block;
-        color: $header-secondary;
-        font-size: 15px;
-        font-weight: 700;
-      }
-      .title{
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 1.8;
-        color: #262626;
-      }
-      .info{
-        padding: 0;
-        margin: 0;
-        font-size: 15px;
-      }
-      .location{
-        display: flex;
-        align-items: center;
-        color: #aaa;
-        font-size: 14px;
-        padding: 0;
-        margin: 5px 0 0 0;
-        svg{
-          margin-right: 3px;
-        }
-      }
-    }
-    .right{
-      margin-left: auto;
-      .show_more{
-        border: none;
-        background-color: $header-main;
-        color: #fff;
-        padding: 8px 25px;
-        border-radius: 4px;
-        text-align: center;
-      }
-    }
-  }
+
   .show-more{
     margin-top: 20px;
     background: #666;
@@ -552,12 +554,12 @@ footer{
 
 .notice{
   background: #fff;
-  padding: 40px 0;
   .details{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8;
     color: #6a6a6a;
+    padding: 40px 0;
   }
   .title{
     font-weight: 600;
@@ -566,37 +568,66 @@ footer{
     font-size: 20px;
     margin-bottom: 10px;
   }
-  .info-box{
-    padding: 25px 25px 10px;
-    background: #fafafa;
-    border-radius: 4px;
-    .notice-info{
-      display: flex;
-      align-items: center;
-      margin-bottom: 15px;
-      .icon{
-        background: $header-main;
-        border-radius: 8px;
-        width: 50px;
-        height: 50px;
+  .right-info{
+    padding: 40px 0;
+    .info-box{
+      padding: 25px 25px 10px;
+      background: #fafafa;
+      border-radius: 4px;
+      .notice-info{
         display: flex;
-        justify-content: center;
         align-items: center;
-        margin-right: 15px;
-        svg{
-          color: #fff;
-          width: 24px;
-          height: 24px;
+        margin-bottom: 15px;
+        .icon{
+          background: $header-main;
+          border-radius: 8px;
+          width: 50px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 15px;
+          svg{
+            color: #fff;
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .info-title{
+          font-size: 16px;
+          color: #221f1f;
+          font-weight: 600;
+        }
+        .info-desc{
+          font-size: 14px;
+          color: #666;
         }
       }
-      .info-title{
-        font-size: 16px;
-        color: #221f1f;
-        font-weight: 600;
+    }
+  }
+  .top{
+    background: #f6f6f6;
+    padding: 30px 0;
+    .horizontal-notice{
+      background: #f6f6f6;
+      padding: 0;
+      .info{
+        padding: 0;
+        margin: 0;
       }
-      .info-desc{
-        font-size: 14px;
-        color: #666;
+      .image{
+        background: #fff;
+        padding: 25px;
+        border: 1px solid #eee;
+      }
+      .details{
+        padding: 0;
+      }
+      .apply-button{
+        background: $header-secondary;
+        padding: 15px 40px;
+        color: #fff;
+        border-radius: 6px;
       }
     }
   }
