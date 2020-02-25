@@ -451,6 +451,9 @@ footer{
   background: #fafafa;
   padding: 40px 0;
   .notice-filter{
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
     .filter{
       margin-bottom: 20px;
       label{
@@ -523,8 +526,8 @@ footer{
       border: none;
       background-color: $header-main;
       color: #fff;
-      padding: 8px 25px;
-      border-radius: 4px;
+      padding: 12px 40px;
+      border-radius: 6px;
       text-align: center;
     }
   }
@@ -537,10 +540,10 @@ footer{
 
   .show-more{
     margin-top: 20px;
-    background: #666;
+    background: #444;
     border: none;
     color: #fff;
-    height: 50px;
+    height: 45px;
     width: 100%;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -655,7 +658,7 @@ footer{
     }
   }
   .search{
-    padding: 50px 0;
+    padding: 50px 10px;
     .search-form{
       .d-pr-0{
         padding-right: 15px;
@@ -664,8 +667,10 @@ footer{
     }
     .search-button{
       width: 100%;
-      text-align: center;
       display: block;
+      span{
+        margin: 0 auto;
+      }
     }
   }
   footer{
@@ -722,6 +727,17 @@ footer{
     }
     .right-info{
       padding: 20px 10px 30px;
+    }
+  }
+  .notices{
+    padding-top: 20px;
+    .horizontal-notice{
+      .right{
+        display: none;
+      }
+    }
+    .notice-filter{
+      margin-bottom: 25px;
     }
   }
 }

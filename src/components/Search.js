@@ -24,7 +24,7 @@ export default class Search extends React.Component {
             <div className="search">
                 <div className="container">
                     <div className="row">
-                        <div className="col-8">
+                        <div className="col-12 col-md-8">
                             <h1>Find The Job That Fits Your Life</h1>
                             <p>Each month, more than 7 million jobseekers turn to website in their search for work, making over 160,000 applications every day.</p>
                         </div>
@@ -75,9 +75,9 @@ export default class Search extends React.Component {
                                 <Select.Option value="4">Trabzon</Select.Option>
                             </Select>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-12 col-md-4">
                             <button className="search-button">
-                                İlan Ara
+                                <span>İlan Ara</span>
                             </button>
                         </div>
                     </div>

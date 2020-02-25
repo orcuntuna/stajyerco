@@ -9,10 +9,10 @@ export default class Ilanlar extends React.Component {
                 <div className="notices">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-12 col-lg-4">
                                 <NoticeFilter />
                             </div>
-                            <div className="col-md-9">
+                            <div className="col-12 col-lg-8">
                                 <ListNotices />
                             </div>
                         </div>
