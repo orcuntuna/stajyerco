@@ -1,5 +1,5 @@
 import React from "react";
-import {Input,Button,Checkbox} from "antd";
+import {Input,Button,Checkbox,Icon} from "antd";
 
 export default class Login extends React.Component {
     render() {
@@ -17,6 +17,9 @@ export default class Login extends React.Component {
                         <a href="#!" className="forget-password">Parolamı Unuttum</a>
                     </div>
                     <Button className="button" block={true} size={"large"} type="primary">Giriş Yap</Button>
+                    <hr />
+                    <Button className="button google-login" block={true} size={"large"} type="primary"><Icon type="google" />Google ile Giriş Yap</Button>
+                    <Button className="button linkedin-login" block={true} size={"large"} type="primary"><Icon type="linkedin" />LinkedIn ile Giriş Yap</Button>
                 </div>
             </div>
         );
