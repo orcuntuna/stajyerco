@@ -652,6 +652,9 @@ footer .bottom .bottom-flex ul li:first-child {
     display: block;
   }
 
+  footer .footer-col {
+    margin-bottom: 20px;
+  }
   footer .bottom .bottom-flex {
     flex-direction: column-reverse;
   }

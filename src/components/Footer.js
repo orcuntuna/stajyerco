@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
                 <div className="top">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-md-2">
+                            <div className="col-6 col-md-2 footer-col">
                                 <h4 className="menu-title">Quick Links</h4>
                                 <ul className="menu">
                                     <li><a href="#">Job Packages</a></li>
@@ -19,7 +19,7 @@ export default class Footer extends React.Component {
                                     <li><a href="#">Employers Grid</a></li>
                                 </ul>
                             </div>
-                            <div className="col-12 col-md-2">
+                            <div className="col-6 col-md-2 footer-col">
                                 <h4 className="menu-title">For Candidates</h4>
                                 <ul className="menu">
                                     <li><a href="#">User Dashboard</a></li>
@@ -28,7 +28,7 @@ export default class Footer extends React.Component {
                                     <li><a href="#">Candidates Grid</a></li>
                                 </ul>
                             </div>
-                            <div className="col-12 col-md-3">
+                            <div className="col-12 col-md-3 footer-col show-desktop">
                                 <h4 className="menu-title">For Employers</h4>
                                 <ul className="menu">
                                     <li><a href="#">Post New</a></li>

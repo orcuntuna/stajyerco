@@ -669,6 +669,9 @@ footer{
     }
   }
   footer{
+    .footer-col{
+      margin-bottom: 20px;
+    }
     .bottom{
       .bottom-flex{
         flex-direction: column-reverse;
