@@ -697,5 +697,32 @@ footer{
       }
     }
   }
+  .notice{
+    .top{
+      .horizontal-notice{
+        flex-direction: column;
+        text-align: center;
+        .image{
+          margin-right: 0;
+        }
+        .details{
+          margin-top: 10px;
+          .location{
+            justify-content: center;
+            align-items: center;
+          }
+        }
+        .right{
+          margin: 30px auto 10px;
+        }
+      }
+    }
+    .details{
+      padding: 30px 10px 0;
+    }
+    .right-info{
+      padding: 20px 10px 30px;
+    }
+  }
 }
 

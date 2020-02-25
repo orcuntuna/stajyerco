@@ -676,6 +676,30 @@ footer .bottom .bottom-flex ul li:first-child {
   .breadscrumb .breadscrumb-flex ul {
     margin-top: 5px;
   }
+
+  .notice .top .horizontal-notice {
+    flex-direction: column;
+    text-align: center;
+  }
+  .notice .top .horizontal-notice .image {
+    margin-right: 0;
+  }
+  .notice .top .horizontal-notice .details {
+    margin-top: 10px;
+  }
+  .notice .top .horizontal-notice .details .location {
+    justify-content: center;
+    align-items: center;
+  }
+  .notice .top .horizontal-notice .right {
+    margin: 30px auto 10px;
+  }
+  .notice .details {
+    padding: 30px 10px 0;
+  }
+  .notice .right-info {
+    padding: 20px 10px 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
