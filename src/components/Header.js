@@ -2,7 +2,7 @@ import React from "react";
 import {observer, inject} from "mobx-react";
 import {Icon} from "antd";
 
-@inject("MainStore")
+@inject("store")
 @observer
 export default class Header extends React.Component {
     render(){
@@ -25,13 +25,13 @@ export default class Header extends React.Component {
                         <div href="#" className="toggle-button show-mobile">
                             <Icon type="user" style={{fontSize: "20px"}} />
                         </div>
-                        <div onClick={() => this.props.MainStore.mobile_header_menu_toggle()} className="toggle-button show-mobile">
+                        <div onClick={() => this.props.store.main.mobile_header_menu_toggle()} className="toggle-button show-mobile">
                             <Icon type="menu" style={{fontSize: "20px"}} />
                         </div>
                     </div>
                 </div>
                 {
-                    this.props.MainStore.mobile_header_menu_visible ? (
+                    this.props.store.main.mobile_header_menu_visible ? (
                         <ul className="mobile-menu">
                             <li><a href="#">Anasayfa</a></li>
                             <li><a href="#">Firmalar</a></li>
