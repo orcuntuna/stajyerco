@@ -728,6 +728,21 @@ footer{
       }
     }
   }
+  .profile-right{
+    .tabs{
+      margin-left: 10px;
+      .ant-tabs-tab{
+        margin-right: 0;
+      }
+      .ant-tabs-tab-active{
+        font-weight: 600;
+        color: $header-main;
+      }
+      .ant-tabs-ink-bar{
+        background: $header-main;
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {

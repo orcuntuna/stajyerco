@@ -711,6 +711,19 @@ footer .bottom .bottom-flex ul li:first-child {
 .student-profile .profile-left .email a svg {
   margin-right: 5px;
 }
+.student-profile .profile-right .tabs {
+  margin-left: 10px;
+}
+.student-profile .profile-right .tabs .ant-tabs-tab {
+  margin-right: 0;
+}
+.student-profile .profile-right .tabs .ant-tabs-tab-active {
+  font-weight: 600;
+  color: #231d73;
+}
+.student-profile .profile-right .tabs .ant-tabs-ink-bar {
+  background: #231d73;
+}
 
 @media (max-width: 576px) {
   .show-mobile {
