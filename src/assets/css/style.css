@@ -1,6 +1,7 @@
 body {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
+  background: #fafafa;
 }
 
 .show-mobile {
@@ -456,7 +457,6 @@ footer .bottom .bottom-flex ul li:first-child {
 }
 
 .notices {
-  background: #fafafa;
   padding: 40px 0;
 }
 .notices .notice-filter {
@@ -639,6 +639,77 @@ footer .bottom .bottom-flex ul li:first-child {
   padding: 15px 40px;
   color: #fff;
   border-radius: 6px;
+}
+
+.student-profile {
+  background: #fff;
+  margin-top: 30px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 30px 35px;
+  color: #333;
+}
+.student-profile .profile-left .photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  border: 1px solid #ddd;
+}
+.student-profile .profile-left .name-info {
+  margin-top: 18px;
+  text-align: center;
+}
+.student-profile .profile-left .name-info h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.student-profile .profile-left .name-info .username {
+  margin-top: 2px;
+}
+.student-profile .profile-left .name-info .username a {
+  display: inline-block;
+  color: #666;
+  font-size: 15px;
+}
+.student-profile .profile-left .social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.student-profile .profile-left .social-links svg {
+  width: 22px;
+  height: 22px;
+  margin: 0 2px;
+}
+.student-profile .profile-left .social-links .facebook {
+  color: #3b5998;
+}
+.student-profile .profile-left .social-links .twitter {
+  color: #1DA1F2;
+}
+.student-profile .profile-left .social-links .linkedin {
+  color: #0e76a8;
+}
+.student-profile .profile-left .social-links .instagram {
+  color: #DD2A7B;
+}
+.student-profile .profile-left .social-links .github {
+  color: #24292e;
+}
+.student-profile .profile-left .email {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.student-profile .profile-left .email a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student-profile .profile-left .email a svg {
+  margin-right: 5px;
 }
 
 @media (max-width: 576px) {

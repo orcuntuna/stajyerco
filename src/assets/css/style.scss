@@ -5,6 +5,7 @@ $footer-main: #262626;
 body{
   font-family: "Nunito", sans-serif;
   font-size: 15px;
+  background: #fafafa;
 }
 
 .show-mobile{
@@ -467,7 +468,6 @@ footer{
 }
 
 .notices{
-  background: #fafafa;
   padding: 40px 0;
   .notice-filter{
     background: #fff;
@@ -650,6 +650,81 @@ footer{
         padding: 15px 40px;
         color: #fff;
         border-radius: 6px;
+      }
+    }
+  }
+}
+
+.student-profile{
+  background: #fff;
+  margin-top: 30px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 30px 35px;
+  color: #333;
+  .profile-left{
+    .photo{
+      img{
+        width: 100%;
+        height: auto;
+        border-radius: 100%;
+        border: 1px solid #ddd;
+      }
+    }
+    .name-info{
+      margin-top: 18px;
+      text-align: center;
+      h1{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0
+      }
+      .username{
+        margin-top: 2px;
+        a{
+          display: inline-block;
+          color: #666;
+          font-size: 15px;
+        }
+      }
+    }
+    .social-links{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      svg{
+        width: 22px;
+        height: 22px;
+        margin: 0 2px;
+      }
+      .facebook{
+        color: #3b5998;
+      }
+      .twitter{
+        color: #1DA1F2;
+      }
+      .linkedin{
+        color: #0e76a8;
+      }
+      .instagram{
+        color: #DD2A7B;
+      }
+      .github{
+        color: #24292e;
+      }
+    }
+    .email{
+      display: flex;
+      justify-content: center;
+      margin-top: 25px;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+          margin-right: 5px;
+        }
       }
     }
   }

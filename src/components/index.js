@@ -1,16 +1,17 @@
-import Header from "./Header";
-import Search from "./Search";
-import PopularCategories from "./PopularCategories";
-import FeaturedNotices from "./FeaturedNotices";
-import HomeNotice from "./HomeNotice";
-import Footer from "./Footer";
-import Breadscrumb from "./Breadscrumb";
-import Login from "./Login";
-import Register from "./Register";
-import ListNotices from "./ListNotices";
-import NoticeFilter from "./NoticeFilter";
-import HorizontalNotice from "./HorizontalNotice";
-import NoticeInfo from "./NoticeInfo";
+import Header from "./layout/Header";
+import Search from "./home/Search";
+import PopularCategories from "./home/PopularCategories";
+import FeaturedNotices from "./notice/FeaturedNotices";
+import HomeNotice from "./notice/HomeNotice";
+import Footer from "./layout/Footer";
+import Breadscrumb from "./utility/Breadscrumb";
+import Login from "./membership/Login";
+import Register from "./membership/Register";
+import ListNotices from "./notice/ListNotices";
+import NoticeFilter from "./notice/NoticeFilter";
+import HorizontalNotice from "./notice/HorizontalNotice";
+import NoticeInfo from "./notice/NoticeInfo";
+import StudentProfile from "./profile/StudentProfile";
 
 export {
     Header,
@@ -25,5 +26,6 @@ export {
     ListNotices,
     NoticeFilter,
     HorizontalNotice,
-    NoticeInfo
+    NoticeInfo,
+    StudentProfile,
 }
