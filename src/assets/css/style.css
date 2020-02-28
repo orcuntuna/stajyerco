@@ -643,7 +643,7 @@ footer .bottom .bottom-flex ul li:first-child {
 
 .student-profile {
   background: #fff;
-  margin-top: 30px;
+  margin-top: 25px;
   border: 1px solid #eee;
   border-radius: 6px;
   padding: 30px 35px;
@@ -723,6 +723,38 @@ footer .bottom .bottom-flex ul li:first-child {
 }
 .student-profile .profile-right .tabs .ant-tabs-ink-bar {
   background: #231d73;
+}
+.student-profile .profile-right .tab-personal .description {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.6em;
+}
+.student-profile .profile-right .tab-personal .description .other-info {
+  font-size: 1.1em;
+  padding: 0;
+}
+.student-profile .profile-right .tab-personal .description .other-info li {
+  padding: 2px 0;
+}
+.student-profile .profile-right .tab-personal .description .other-info li b {
+  margin-right: 5px;
+}
+.student-profile .profile-right .tab-education .education p {
+  padding: 0;
+  margin: 0;
+}
+.student-profile .profile-right .tab-education .education .school {
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+.student-profile .profile-right .tab-education .education .department {
+  color: #231d73;
+  font-size: 15px;
+}
+.student-profile .profile-right .tab-education .education .years {
+  color: #666;
+  font-size: 13px;
 }
 
 @media (max-width: 576px) {

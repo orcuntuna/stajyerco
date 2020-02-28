@@ -657,7 +657,7 @@ footer{
 
 .student-profile{
   background: #fff;
-  margin-top: 30px;
+  margin-top: 25px;
   border: 1px solid #eee;
   border-radius: 6px;
   padding: 30px 35px;
@@ -740,6 +740,45 @@ footer{
       }
       .ant-tabs-ink-bar{
         background: $header-main;
+      }
+
+    }
+    .tab-personal{
+      .description{
+        color: #555;
+        font-size: 1em;
+        line-height: 1.6em;
+        .other-info{
+          font-size: 1.1em;
+          padding: 0;
+          li{
+            padding: 2px 0;
+            b{
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+    .tab-education{
+      .education{
+        p{
+          padding: 0;
+          margin: 0;
+        }
+        .school{
+          color: #333;
+          font-weight: 600;
+          font-size: 16px;
+        }
+        .department{
+          color: $header-main;
+          font-size: 15px;
+        }
+        .years{
+          color: #666;
+          font-size: 13px;
+        }
       }
     }
   }
