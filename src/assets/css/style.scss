@@ -732,7 +732,7 @@ footer{
     .tabs{
       margin-left: 10px;
       .ant-tabs-tab{
-        margin-right: 0;
+        margin-right: 10px;
       }
       .ant-tabs-tab-active{
         font-weight: 600;
@@ -746,13 +746,18 @@ footer{
     .tab-personal{
       .description{
         color: #555;
-        font-size: 1em;
-        line-height: 1.6em;
+        font-size: 1.05em;
+        line-height: 1.7em;
         .other-info{
-          font-size: 1.1em;
           padding: 0;
+          margin-top: 10px;
+          margin-bottom: 0;
           li{
-            padding: 2px 0;
+            display: inline-block;
+            padding-right: 20px;
+            vertical-align: top;
+            margin-top: 8px;
+            width: 50%;
             b{
               margin-right: 5px;
             }
@@ -760,24 +765,40 @@ footer{
         }
       }
     }
-    .tab-education{
-      .education{
-        p{
-          padding: 0;
-          margin: 0;
-        }
-        .school{
-          color: #333;
-          font-weight: 600;
-          font-size: 16px;
-        }
-        .department{
-          color: $header-main;
-          font-size: 15px;
-        }
-        .years{
+    .list{
+      position: relative;
+      width: 100%;
+      p{
+        padding: 0;
+        margin: 0;
+      }
+      .title{
+        color: #333;
+        font-weight: 600;
+        font-size: 16px;
+        span{
           color: #666;
-          font-size: 13px;
+          font-size: 0.9em;
+        }
+      }
+      .desc{
+        color: #444;
+        font-size: 15px;
+        margin-top: 3px;
+        padding-right: 50px;
+      }
+      .years{
+        margin-top: 3px;
+        color: #666;
+        font-size: 13px;
+      }
+      .absolute-link{
+        position: absolute;
+        right: 10px;
+        top: 24px;
+        svg{
+          width: 24px;
+          height: 24px;
         }
       }
     }

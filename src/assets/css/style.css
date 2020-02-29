@@ -715,7 +715,7 @@ footer .bottom .bottom-flex ul li:first-child {
   margin-left: 10px;
 }
 .student-profile .profile-right .tabs .ant-tabs-tab {
-  margin-right: 0;
+  margin-right: 10px;
 }
 .student-profile .profile-right .tabs .ant-tabs-tab-active {
   font-weight: 600;
@@ -726,35 +726,60 @@ footer .bottom .bottom-flex ul li:first-child {
 }
 .student-profile .profile-right .tab-personal .description {
   color: #555;
-  font-size: 1em;
-  line-height: 1.6em;
+  font-size: 1.05em;
+  line-height: 1.7em;
 }
 .student-profile .profile-right .tab-personal .description .other-info {
-  font-size: 1.1em;
   padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 .student-profile .profile-right .tab-personal .description .other-info li {
-  padding: 2px 0;
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: top;
+  margin-top: 8px;
+  width: 50%;
 }
 .student-profile .profile-right .tab-personal .description .other-info li b {
   margin-right: 5px;
 }
-.student-profile .profile-right .tab-education .education p {
+.student-profile .profile-right .list {
+  position: relative;
+  width: 100%;
+}
+.student-profile .profile-right .list p {
   padding: 0;
   margin: 0;
 }
-.student-profile .profile-right .tab-education .education .school {
+.student-profile .profile-right .list .title {
   color: #333;
   font-weight: 600;
   font-size: 16px;
 }
-.student-profile .profile-right .tab-education .education .department {
-  color: #231d73;
-  font-size: 15px;
+.student-profile .profile-right .list .title span {
+  color: #666;
+  font-size: 0.9em;
 }
-.student-profile .profile-right .tab-education .education .years {
+.student-profile .profile-right .list .desc {
+  color: #444;
+  font-size: 15px;
+  margin-top: 3px;
+  padding-right: 50px;
+}
+.student-profile .profile-right .list .years {
+  margin-top: 3px;
   color: #666;
   font-size: 13px;
+}
+.student-profile .profile-right .list .absolute-link {
+  position: absolute;
+  right: 10px;
+  top: 24px;
+}
+.student-profile .profile-right .list .absolute-link svg {
+  width: 24px;
+  height: 24px;
 }
 
 @media (max-width: 576px) {
