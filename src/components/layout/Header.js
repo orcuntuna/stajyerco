@@ -9,8 +9,8 @@ export default class Header extends React.Component {
         return(
             <div className="header">
                 <div className="container header-container">
-                    <a href="#" className="logo">
-                        <img src="/img/logo.png" />
+                    <a href="/" className="logo">
+                        <img src="/img/logo-white.png" />
                     </a>
                     <ul className="menu show-desktop">
                         <li><a href="#">Anasayfa</a></li>

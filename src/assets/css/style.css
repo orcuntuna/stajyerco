@@ -26,8 +26,12 @@ body {
   align-items: center;
   justify-content: flex-start;
 }
+.header .logo img {
+  height: 40px;
+  width: auto;
+}
 .header .menu {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
   padding: 0;
   list-style: none;
   display: flex;
