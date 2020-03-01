@@ -7,14 +7,13 @@ export default class NoticeFilter extends React.Component {
             <div className="notice-filter">
                 <div className="filter">
                     <label htmlFor="custom_search">Özel Arama</label>
-                    <Input id="custom_search" size="large" placeholder="javascript, react, vb." />
+                    <Input id="custom_search" placeholder="javascript, react, vb." />
                 </div>
                 <div className="filter">
                     <label htmlFor="location">Konum</label>
                     <Select
                         showSearch
                         mode="multiple"
-                        size="large"
                         style={{ width: "100%" }}
                         placeholder="Şehirleri seçebilirsiniz"
                         optionFilterProp="children"
@@ -30,7 +29,6 @@ export default class NoticeFilter extends React.Component {
                     <Select
                         showSearch
                         mode="multiple"
-                        size="large"
                         style={{ width: "100%" }}
                         placeholder="Bölümleri seçebilirsiniz"
                         optionFilterProp="children"
@@ -45,7 +43,6 @@ export default class NoticeFilter extends React.Component {
                     <label htmlFor="intership_type">Staj Tipi</label>
                     <Select
                         showSearch
-                        size="large"
                         style={{ width: "100%" }}
                         placeholder="Bölümleri seçebilirsiniz"
                         optionFilterProp="children"

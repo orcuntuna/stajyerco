@@ -7,7 +7,7 @@ export default class HorizontalNotice extends React.Component {
             <div className="horizontal-notice">
                 <div className="image">
                     <a href="#">
-                        <img src="img/brand3.png" alt="firma" />
+                        <img src="/img/brand3.png" alt="firma" />
                     </a>
                 </div>
                 <div className="details">

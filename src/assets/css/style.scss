@@ -472,7 +472,7 @@ footer{
 }
 
 .notices{
-  padding: 40px 0;
+  padding: 30px 0;
   .notice-filter{
     background: #fff;
     padding: 25px;
@@ -480,7 +480,7 @@ footer{
     .filter{
       margin-bottom: 20px;
       label{
-        font-size: 18px;
+        font-size: 16px;
         color: #555;
         margin: 0 0 6px 0;
         font-weight: 600;
@@ -517,19 +517,19 @@ footer{
     .brand{
       display: block;
       color: $header-secondary;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 700;
     }
     .title{
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
       line-height: 1.8;
       color: #262626;
     }
-    .info-info{
+    .info{
       padding: 0;
       margin: 0;
-      font-size: 15px;
+      font-size: 14px;
     }
     .location{
       display: flex;
@@ -559,10 +559,7 @@ footer{
 .notice-list{
   background: #fff;
   border-radius: 8px;
-  padding: 20px 0 0 0;
-
   .show-more{
-    margin-top: 20px;
     background: #444;
     border: none;
     color: #fff;
@@ -859,6 +856,16 @@ footer{
     .google-map{
       width: 100%;
       height: 250px;
+    }
+  }
+  .company-notice-list{
+    margin-top: 20px;
+    .ant-card-body{
+      padding: 0;
+      margin-top: 1px;
+    }
+    .horizontal-notice:last-child{
+      border: 0;
     }
   }
 }
