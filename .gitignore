@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/git,react,linux,macos,windows,webstorm,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=git,react,linux,macos,windows,webstorm,visualstudiocode
 
@@ -205,5 +204,4 @@ $RECYCLE.BIN/
 
 .next
 .next/
-./next.config.js
-*/next.config.js
+next.config.js

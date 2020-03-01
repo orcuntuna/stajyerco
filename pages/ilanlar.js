@@ -10,8 +10,8 @@ export default class Ilanlar extends React.Component {
                 <div className="notices">
                     <div className="container">
                         <Row gutter={20}>
-                            <Col span={7}><NoticeFilter /></Col>
-                            <Col span={17}><ListNotices /></Col>
+                            <Col span={24} md={7}><NoticeFilter /></Col>
+                            <Col span={24} md={17}><ListNotices /></Col>
                         </Row>
                     </div>
                 </div>
