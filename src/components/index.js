@@ -11,7 +11,7 @@ import ListNotices from "./notice/ListNotices";
 import NoticeFilter from "./notice/NoticeFilter";
 import HorizontalNotice from "./notice/HorizontalNotice";
 import NoticeInfo from "./notice/NoticeInfo";
-import StudentProfile from "./profile/StudentProfile";
+import StudentProfile from "./user_profile/StudentProfile";
 
 export {
     Header,

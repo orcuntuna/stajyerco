@@ -787,6 +787,51 @@ footer .bottom .bottom-flex ul li:first-child {
   height: 24px;
 }
 
+.company-header {
+  background: #fff;
+  padding: 18px 0;
+}
+.company-header .header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company-header .header-flex .company-info h1 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  padding: 0;
+  margin: 0 0 5px;
+}
+.company-header .header-flex .company-info h1 svg {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
+.company-header .header-flex .company-info p.desc {
+  color: #666;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.company-header .header-flex .company-link .website {
+  display: flex;
+  align-items: center;
+}
+
+.company-profile .company-details .ant-card {
+  margin-top: 20px;
+}
+.company-profile .company-details .ant-card .ant-card-body {
+  padding: 20px;
+}
+.company-profile .company-details .google-map {
+  width: 100%;
+  height: 250px;
+}
+
 @media (max-width: 576px) {
   .show-mobile {
     display: block;
@@ -905,6 +950,14 @@ footer .bottom .bottom-flex ul li:first-child {
   }
   .student-profile .profile-right .description {
     padding: 0 10px;
+  }
+
+  .company-header .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .company-header .header-flex .company-link {
+    margin-top: 15px;
   }
 }
 

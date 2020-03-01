@@ -810,6 +810,59 @@ footer{
   }
 }
 
+.company-header{
+  background: #fff;
+  padding: 18px 0;
+  .header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .company-info{
+      h1{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: #333;
+        padding: 0;
+        margin: 0 0 5px;
+        svg{
+          width: 16px;
+          height: 16px;
+          margin-left: 8px;
+        }
+      }
+      p.desc{
+        color: #666;
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .company-link{
+      .website{
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.company-profile{
+  .company-details{
+    .ant-card{
+      margin-top: 20px;
+      .ant-card-body{
+        padding: 20px;
+      }
+    }
+    .google-map{
+      width: 100%;
+      height: 250px;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .show-mobile{
     display: block;
@@ -938,6 +991,15 @@ footer{
       }
       .description{
         padding: 0 10px;
+      }
+    }
+  }
+  .company-header{
+    .header-flex{
+      flex-direction: column;
+      align-items: flex-start;
+      .company-link{
+        margin-top: 15px;
       }
     }
   }
