@@ -205,4 +205,5 @@ $RECYCLE.BIN/
 
 .next
 .next/
-next.config.js
+./next.config.js
+./next.config.*
