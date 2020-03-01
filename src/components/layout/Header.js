@@ -10,7 +10,7 @@ export default class Header extends React.Component {
             <div className="header">
                 <div className="container header-container">
                     <a href="#" className="logo">
-                        <img src="img/logo.png" />
+                        <img src="/img/logo.png" />
                     </a>
                     <ul className="menu show-desktop">
                         <li><a href="#">Anasayfa</a></li>
