@@ -477,6 +477,7 @@ footer{
     background: #fff;
     padding: 25px;
     border-radius: 8px;
+    margin-top: 1px;
     .filter{
       margin-bottom: 20px;
       label{
@@ -493,6 +494,9 @@ footer{
       background-color: $header-secondary;
       border-color: $header-secondary;
     }
+  }
+  .ant-card-body{
+    padding: 0;
   }
 }
 
@@ -572,6 +576,10 @@ footer{
   }
   .show-more:focus{
     outline: 0;
+  }
+  .horizontal-notice:first-child{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 }
 
@@ -856,6 +864,10 @@ footer{
     .google-map{
       width: 100%;
       height: 250px;
+      margin-bottom: 15px;
+    }
+    .google-map:last-child{
+      margin: 0;
     }
   }
   .company-notice-list{
@@ -1007,6 +1019,15 @@ footer{
       align-items: flex-start;
       .company-link{
         margin-top: 15px;
+      }
+    }
+  }
+  .company-profile{
+    .company-notice-list{
+      .horizontal-notice{
+        .right{
+          display: none;
+        }
       }
     }
   }

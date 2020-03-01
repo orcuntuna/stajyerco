@@ -1,6 +1,6 @@
 import React from "react";
 import {Header,ListNotices,NoticeFilter,Footer} from "../src/components";
-import {Row,Col} from "antd";
+import {Row, Col, Card, Icon} from "antd";
 
 export default class Ilanlar extends React.Component {
     render() {
@@ -10,8 +10,14 @@ export default class Ilanlar extends React.Component {
                 <div className="notices">
                     <div className="container">
                         <Row gutter={20}>
-                            <Col span={24} md={7}><NoticeFilter /></Col>
-                            <Col span={24} md={17}><ListNotices /></Col>
+                            <Col span={24} md={7}>
+                                <Card title={<b>Arama Filtreleri</b>} size={"small"}>
+                                    <NoticeFilter />
+                                </Card>
+                            </Col>
+                            <Col span={24} md={17}>
+                                <ListNotices />
+                            </Col>
                         </Row>
                     </div>
                 </div>

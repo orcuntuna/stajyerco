@@ -467,6 +467,7 @@ footer .bottom .bottom-flex ul li:first-child {
   background: #fff;
   padding: 25px;
   border-radius: 8px;
+  margin-top: 1px;
 }
 .notices .notice-filter .filter {
   margin-bottom: 20px;
@@ -483,6 +484,9 @@ footer .bottom .bottom-flex ul li:first-child {
 .notices .notice-filter button {
   background-color: #44bd32;
   border-color: #44bd32;
+}
+.notices .ant-card-body {
+  padding: 0;
 }
 
 .horizontal-notice {
@@ -560,6 +564,10 @@ footer .bottom .bottom-flex ul li:first-child {
 }
 .notice-list .show-more:focus {
   outline: 0;
+}
+.notice-list .horizontal-notice:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .notice {
@@ -828,6 +836,10 @@ footer .bottom .bottom-flex ul li:first-child {
 .company-profile .company-details .google-map {
   width: 100%;
   height: 250px;
+  margin-bottom: 15px;
+}
+.company-profile .company-details .google-map:last-child {
+  margin: 0;
 }
 .company-profile .company-notice-list {
   margin-top: 20px;
@@ -966,6 +978,10 @@ footer .bottom .bottom-flex ul li:first-child {
   }
   .company-header .header-flex .company-link {
     margin-top: 15px;
+  }
+
+  .company-profile .company-notice-list .horizontal-notice .right {
+    display: none;
   }
 }
 
