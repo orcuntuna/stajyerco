@@ -32,7 +32,7 @@ export default class TabProject extends React.Component {
                     renderItem={item => (
                         <List.Item>
                             <div className="list">
-                                <a className={"absolute-link"} href={item.url}><Icon type={"link"}/></a>
+                                <a target="_blank" rel="nofollow" className={"absolute-link"} href={item.url}><Icon type={"link"}/></a>
                                 <p className="title">{item.name}</p>
                                 <p className="desc">{item.description}</p>
                                 <p className="years">{item.date}</p>

@@ -642,6 +642,7 @@ footer .bottom .bottom-flex ul li:first-child {
 }
 
 .student-profile {
+  margin-bottom: 25px;
   background: #fff;
   margin-top: 25px;
   border: 1px solid #eee;
@@ -876,6 +877,30 @@ footer .bottom .bottom-flex ul li:first-child {
   }
   .notices .notice-filter {
     margin-bottom: 25px;
+  }
+
+  .student-profile {
+    padding: 25px 10px;
+  }
+  .student-profile .profile-left .photo {
+    display: flex;
+    justify-content: center;
+  }
+  .student-profile .profile-left .photo img {
+    width: 150px;
+    height: 150px;
+  }
+  .student-profile .profile-left .email {
+    padding: 0 10%;
+  }
+  .student-profile .profile-left .email a {
+    padding: 6px 0;
+  }
+  .student-profile .profile-right .tabs {
+    margin-top: 15px;
+  }
+  .student-profile .profile-right .description {
+    padding: 0 10px;
   }
 }
 

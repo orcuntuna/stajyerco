@@ -656,6 +656,7 @@ footer{
 }
 
 .student-profile{
+  margin-bottom: 25px;
   background: #fff;
   margin-top: 25px;
   border: 1px solid #eee;
@@ -909,5 +910,33 @@ footer{
       margin-bottom: 25px;
     }
   }
+  .student-profile {
+    padding: 25px 10px;
+    .profile-left {
+      .photo {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+      .email{
+        padding: 0 10%;
+        a{
+          padding: 6px 0;
+        }
+      }
+    }
+    .profile-right{
+      .tabs{
+        margin-top: 15px;
+      }
+      .description{
+        padding: 0 10px;
+      }
+    }
+  }
 }
+
 

@@ -15,19 +15,19 @@ export default class StudentProfileSidebar extends React.Component {
                     </div>
                 </div>
                 <div className="social-links">
-                    <a href={"/"}>
+                    <a target="_blank" rel="nofollow" href={"/"}>
                         <Icon className={"facebook"} type="facebook" theme={"filled"} />
                     </a>
-                    <a href={"/"}>
+                    <a target="_blank" rel="nofollow" href={"/"}>
                         <Icon className={"twitter"} type="twitter-square" theme={"filled"} />
                     </a>
-                    <a href={"/"}>
+                    <a target="_blank" rel="nofollow" href={"/"}>
                         <Icon className={"linkedin"} type="linkedin" theme={"filled"} />
                     </a>
-                    <a href={"/"}>
+                    <a target="_blank" rel="nofollow" href={"/"}>
                         <Icon className={"instagram"} type="instagram" theme={"filled"} />
                     </a>
-                    <a href={"/"}>
+                    <a target="_blank" rel="nofollow" href={"/"}>
                         <Icon className={"github"} type="github" theme={"filled"} />
                     </a>
                 </div>
