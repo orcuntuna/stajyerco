@@ -823,6 +823,13 @@ footer{
     align-items: center;
     justify-content: space-between;
     .company-info{
+      display: flex;
+      align-items: center;
+      img{
+        width: 48px;
+        height: 48px;
+        margin-right: 15px;
+      }
       h1{
         display: flex;
         align-items: center;
@@ -1026,6 +1033,15 @@ footer{
     .company-notice-list{
       .horizontal-notice{
         .right{
+          display: none;
+        }
+      }
+    }
+  }
+  .company-header {
+    .header-flex {
+      .company-info {
+        img {
           display: none;
         }
       }

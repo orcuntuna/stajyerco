@@ -8,8 +8,11 @@ export default class CompanyHeader extends React.Component {
                 <div className="container">
                     <div className="header-flex">
                         <div className="company-info">
-                            <h1>Google <Icon type="check-circle" theme="twoTone" /></h1>
-                            <p className="desc">Google’s mission is to organize the world‘s information and make it universally accessible and useful.</p>
+                            <img src="http://localhost:3000/img/brand3.png" alt="logo"/>
+                            <div>
+                                <h1>Google <Icon type="check-circle" theme="twoTone" /></h1>
+                                <p className="desc">Google’s mission is to organize the world‘s information and make it universally accessible and useful.</p>
+                            </div>
                         </div>
                         <div className="company-link">
                             <a href="https://google.com" target={"_blank"} rel={"nofollow"}>
